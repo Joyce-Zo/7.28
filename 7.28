@@ -1,0 +1,73 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include <stdio.h>
+#include<windows.h>
+int main()
+{
+
+	//    乘法口诀表
+	//int i = 0;
+	//for (i = 1; i < 10; i++)//确定打印9行
+	//{
+	//	int j = 1;   //打印几行，打印几项，行控制列
+	//	for (j = 1; j < i + 1; j++)
+	//	{  
+	//		printf("%d*%d=%-2d ", i, j, i * j);
+	//		//Sleep(700);
+	//	}      //%2d，指打印两位数，且右对齐；-2d则为左对齐
+	//	printf("\n");
+	//	Sleep(400);
+	//}
+	//int arr[] = { 1,2,3,4,5,6,7,8,9,10 };
+	//int max = arr[0];// 如果数组里数字为负值，则0为最大数，所以不可用0，应设为其中某个数字，如arr[0]
+	//int i = 1;
+	//int sz = sizeof(arr) / sizeof(arr[0]);
+	//for (i = 1; i < sz; i++)
+	//{
+	//	if (arr[i] > max)
+	//	{
+	//		max = arr[i];
+	//	}
+	//}
+	//printf("max = %d", max);
+
+	//int i = 0;
+	//int n = 1;
+	//double sum = 0.0;//   double 后跟数字必须有小数
+	//int flag = 1;
+
+	//for (i = 1; i < 101; i++)
+	//{
+
+	//		sum += flag*1.0 / i;//    除号/两边必须有一个是浮点型，结果才能是小数，否则都是整型
+	//		flag = flag * (-1);
+	//}
+	//printf("%lf ", sum);// 浮点型打印要用lf，而不是%d
+
+	//int m = 0, n = 0, k = 0;
+	//scanf("%d%d", &m, &n);
+	//for (m, n; m < n + 1; m++)
+	//{
+	//	if (m % 10 == 9 or m/10==9)
+	//	{
+	//		printf("%d ", m);
+	//		k++;
+	//	}
+	//}printf("\n%d ", k);
+
+
+	//int a = 0, b = 0;
+	//for (a = 1, b = 1; a < 101; a++)
+	//{
+	//	if (b >= 20)
+	//		break;
+	//	if (b % 3 == 1)
+	//	{
+	//		b += 3;
+	//		continue;
+	//	}
+	//	b = b - 5;
+	//}
+	//printf("%d\n", a);
+
+	return 0;
+}
